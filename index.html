@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/img/Logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section id="hero" class="container mx-auto p-4">
+      <nav class="w-full flex items-center justify-between md:my-6">
+        <img src="images/Logo.png" alt="Logo" />
+        <ul class="hidden md:flex items-center gap-6 text-black">
+          <li class="text-lg font-normal">
+            <a href="#features" class="hover:font-semibold">Features</a>
+          </li>
+          <li class="text-lg font-normal">
+            <a href="#aboutus" class="hover:font-semibold">About Us</a>
+          </li>
+          <li class="text-lg font-normal">
+            <a href="#blog" class="hover:font-semibold">Blog</a>
+          </li>
+          <li class="text-lg font-normal">
+            <a
+              href="#login"
+              class="p-2 rounded-lg bg-slate-200 hover:font-semibold"
+              >Log In</a
+            >
+          </li>
+        </ul>
+        <button class="p-2 bg-slate-200 rounded-lg md:hidden">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+      <h1
+        class="text-5xl md:text-7xl md:max-w-5xl font-semibold text-black text-center md:text-left mt-32"
+      >
+        A powerful solution to grow your startup. Fast!
+      </h1>
+      <p class="text-lg md:max-w-lg font-normal text-black text-center md:text-left mt-6">
+        Organise, collaborate, and track progress seamlessly with our
+        one-stop-shop startup growth tool.
+      </p>
+      <button
+        class="p-4 w-full max-w-sm md:max-w-xs bg-blue-500 rounded-2xl text-white mt-6 md:mr-4"
+      >
+        Get Started
+      </button>
+      <button
+        class="p-4 w-full max-w-sm md:max-w-xs bg-slate-200 rounded-2xl text-black mt-6"
+      >
+        <i class="fa-solid fa-camera"></i> Book a demo
+      </button>
+      <picture>
+        <source media="(max-width: 768px)" srcset="images/hero_mobile.png" />
+        <source media="(min-width: 769px)" srcset="images/hero.png" />
+        <img
+          src="images/hero.png"
+          alt="Image hero"
+          class="w-full mt-6 lg:mt-0 object-cover"
+        />
+      </picture>
+    </section>
+    <section id="video" class=" flex flex-col items-center p-4 bg-slate-900">
+      <h1
+        class="text-4xl md:max-w-xl font-semibold text-white text-center md:text-center md:text-left mt-16 mb-8"
+      >
+      See how it works and get started in less than 2 minutes
+      </h1>
+      <picture>
+        <source media="(max-width: 768px)" srcset="images/video_mobile.png" />
+        <source media="(min-width: 769px)" srcset="images/video_desktop.png" />
+        <img
+          src="images/video_desktop.png"
+          alt="Image video"
+          class="w-full md:max-w-4xl object-cover"
+        />
+      </picture>
+      <button
+        class="p-4 w-full max-w-sm md:max-w-xs bg-blue-500 rounded-2xl text-white mt-6 mb-8"
+      >
+        Get Started
+      </button>
+    </section>
+    <hr>
+    <section id="testimonials" class=" flex flex-col p-4 md:p-20 bg-slate-900">
+      <h1
+        class="text-4xl md:text-5xl md:max-w-2xl self-start font-semibold text-white text-left mt-16 mb-8 md:mb-16"
+      >
+      Don't just take our word for it, see the success  stories from businesses just like yours.
+      </h1>
+
+      <div class="flex flex-col md:items-center lg:items-start lg:flex-row gap-6">
+        <div class="flex flex-col space-y-2 p-6 rounded-xl bg-white text-black w-full max-w-sm">
+          <h2 class="font-light text-lg">“Our business has seen a significant increase in productivity since we started using the Growth app.”  
+          </h2>
+            <p class="font-semibold">Katherine Smith</p>
+            <p class="font-normal">Capodopera</p>
+        </div>
+        <div class="flex flex-col space-y-2 p-6 rounded-xl bg-white text-black w-full max-w-sm">
+          <h2 class="font-light text-lg">“As a small business owner, it's important to have a tool that can help me keep track of everything. The Growth app has been a lifesaver for me, allowing me to manage my contacts, schedule appointments, and track progress all in one place.” 
+          </h2>
+            <p class="font-semibold">Jonathan Lee
+              </p>
+            <p class="font-normal">Red Bolt</p>
+        </div>
+        <div class="flex flex-col space-y-2 p-6 rounded-xl bg-white text-black w-full max-w-sm">
+          <h2 class="font-light text-lg">“The dashboards and reporting feature has provided valuable insights into our performance and helped us make data-driven decisions. It's a game changer for us.”  
+          </h2>
+            <p class="font-semibold">David Wilson
+              </p>
+            <p class="font-normal">Slide</p>
+        </div>
+        <div class="flex flex-col space-y-2 p-6 rounded-xl bg-white text-black w-full max-w-sm mb-8">
+          <h2 class="font-light text-lg">“Our business has seen a significant increase in productivity since we started using the Growth app.”  
+          </h2>
+            <p class="font-semibold">Katherine Smith</p>
+            <p class="font-normal">Capodopera</p>
+        </div>
+      </div>
+    </section>
+    <section id="pricing" class="container mx-auto p-4 text-center md:mb-16">
+      <h1
+        class="text-4xl font-semibold text-black text-center mt-16 mb-8"
+      >
+      Pricing
+      </h1>
+      <p class="text-lg text-black text-center mb-8 md:mb-16">Start free and scale while you grow.No hidden fees. Unlimited users for free.</p>
+
+      <div class="flex flex-col md:flex-row md:items-center md:max-w-3xl md:mx-auto gap-6 mb-6 md:mb-12">
+        <div class="flex flex-col p-6 bg-slate-100 text-black rounded-xl">
+          <h2 class="font-semibold text-2xl">Simple</h2>
+          <p class="font-normal text-lg mt-2">Keep track of your contacts, gain valuable insights, analyse live data and performance metrics.</p>
+          <h3 class="font-semibold text-2xl mt-6">Free <span class="text-xs ml-4">* No credit card required</span></h3>
+          <div class="w-full h-0.5 bg-slate-300 my-6"></div>
+          <ul class="mt-6 space-y-4">
+            <li class="flex items-center gap-2">
+              <i class="fa-solid fa-check"></i>
+              <p>Real-time monitoring</p>
+            </li>
+            <li class="flex items-center gap-2">
+              <i class="fa-solid fa-check"></i>
+              <p>Track key performance indicators</p>
+            </li>
+            <li class="flex items-center gap-2">
+              <i class="fa-solid fa-check"></i>
+              <p>Schedule appointments</p>
+            </li>
+            <li class="flex items-center gap-2">
+              <i class="fa-solid fa-check"></i>
+              <p>Organize, delegate and keep track of tasks</p>
+            </li>
+          </ul>
+          <button
+        class="p-4 w-full max-w-sm bg-blue-500 rounded-2xl text-white mt-6"
+      >
+        Get Started
+      </button>
+        </div>
+        <div class="flex flex-col p-6 bg-slate-900 text-white rounded-xl">
+          <h2 class="font-semibold text-2xl">Premium</h2>
+          <p class="font-normal text-lg mt-2">Keep track of your contacts, gain valuable insights, analyse live data and performance metrics.</p>
+          <h3 class="font-semibold text-2xl mt-6">$49 <span class="font-light">/month</span></h3>
+          <div class="w-full h-0.5 bg-slate-300 my-6"></div>
+          <ul class="mt-6 space-y-4">
+            <li>Everything from the free plan plus:</li>
+            <li class="flex items-center gap-2">
+              <i class="fa-solid fa-check"></i>
+              <p>Data-driven decisions</p>
+            </li>
+            <li class="flex items-center gap-2">
+              <i class="fa-solid fa-check"></i>
+              <p>Data visualisation</p>
+            </li>
+            <li class="flex items-center gap-2">
+              <i class="fa-solid fa-check"></i>
+              <p>Schedule appointments</p>
+            </li>
+            <li class="flex items-center gap-2">
+              <i class="fa-solid fa-check"></i>
+              <p>Store and organise contact information</p>
+            </li>
+            <li class="flex md:items-center gap-2">
+              <i class="fa-solid fa-check"></i>
+              <p>Real-time communication tools for messaging and video conferencing</p>
+            </li>
+          </ul>
+          <button
+        class="p-4 w-full max-w-sm bg-blue-500 rounded-2xl text-white mt-6"
+      >
+        Get Started
+      </button>
+        </div>
+      </div>
+
+      <p class="text-lg text-black text-center mb-8">All prices are in USD and charged per month with applicable taxes added at checkout.</p>
+      <a href="#" class="text-lg hover:underline">View features <i class="fa-solid fa-arrow-down"></i></a>
+    </section>
+    <hr>
+    <section id="faq" class="container md:flex md:flex-col md:items-center mx-auto p-4 mb-8 md:mb-16">
+      <h2
+        class="text-4xl font-semibold text-black text-center mt-16 mb-8"
+      >
+      FAQ
+      </h2>
+      <div class="flex items-center justify-center gap-4 p-2 bg-slate-100 max-w-sm rounded-lg">
+        <button class="bg-blue-500 text-white p-3 rounded-lg w-full">All</button>
+        <button class="bg-slate-100 text-black p-3 rounded-lg w-full">Getting Started</button>
+        <button class="bg-slate-100 text-black p-3 rounded-lg w-full">Pricing</button>
+      </div>
+      <div class="flex flex-col gap-6 mt-8">
+        <div class="flex flex-col gap-2 relative">
+          <i class="fa-solid fa-xmark absolute top-2 right-1 cursor-pointer"></i>
+          <h3 class="font-semibold text-lg">How does the contact management feature help me keep track of clients and partners?</h3>
+          <p class="font-normal text-black">Keep track of your contacts, gain valuable insights, analyse live data and performance metrics.</p>
+          <hr>
+        </div>
+        <div class="flex flex-col gap-2 relative">
+          <i class="fa-solid fa-plus absolute top-1 right-1 cursor-pointer"></i>
+          <h3 class="font-semibold text-lg max-w-[90%]">Can I customize the dashboards and reporting feature to display the metrics that are most important to my business?</h3>
+          <hr>
+        </div>
+        <div class="flex flex-col gap-2 relative">
+          <i class="fa-solid fa-plus absolute top-1 right-1 cursor-pointer"></i>
+          <h3 class="font-semibold text-lg max-w-[90%]">How does the task management feature help me delegate tasks to my team and track progress?</h3>
+          <hr>
+        </div>
+        <div class="flex flex-col gap-2 relative">
+          <i class="fa-solid fa-plus absolute top-1 right-1 cursor-pointer"></i>
+          <h3 class="font-semibold text-lg max-w-[90%]">Can I collaborate with my team in real-time using all tools?</h3>
+          <hr>
+        </div>
+        <div class="flex flex-col gap-2 relative">
+          <i class="fa-solid fa-plus absolute top-1 right-1 cursor-pointer"></i>
+          <h3 class="font-semibold text-lg max-w-[90%]">Is the app available on all devices?</h3>
+          <hr>
+        </div>
+        <div class="flex flex-col gap-2 relative">
+          <i class="fa-solid fa-plus absolute top-1 right-1 cursor-pointer"></i>
+          <h3 class="font-semibold text-lg max-w-[90%]">How does the app help me stay compliant when working with freelancers and contractors?</h3>
+          <hr>
+        </div>
+      </div>
+    </section>
+    <footer class=" mx-auto p-4 md:p-20 bg-slate-900 text-white">
+      <div class="flex flex-col gap-6 md:gap-12">
+        <img src="images/Logo-alt.png" alt="Logo" class="w-32" />
+        <div class="flex flex-col lg:flex-row lg:justify-between gap-12">
+          <div class="flex flex-col gap-3 p-6 bg-white text-black rounded-lg md:max-w-md">
+            <h3 class="font-semibold">Subscribe to newsletter</h3>
+            <p class="font-normal">Subscribe to newsletter
+              Subscribe now to receive  tips on how to take your business to the next level.</p>
+            <div class="flex gap-2">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                class="p-2 w-full border rounded-lg"
+              />
+              <button class="p-2 bg-blue-500 rounded-lg text-white">Subscribe</button>
+            </div>
+          </div>
+          <div class="flex flex-col gap-2">
+            <h3 class="font-semibold">Company</h3>
+            <a href="#" class="hover:underline">About</a>
+            <a href="#" class="hover:underline">Our Process</a>
+            <a href="#" class="hover:underline">Join our team</a>
+          </div>
+          <div class="flex flex-col gap-2">
+            <h3 class="font-semibold">Resources</h3>
+            <a href="#" class="hover:underline">News</a>
+            <a href="#" class="hover:underline">Research</a>
+            <a href="#" class="hover:underline">Recent Projects</a>
+          </div>
+          <div class="flex flex-col gap-2">
+            <h3 class="font-semibold">Contact</h3>
+            <a href="#" class="hover:underline">hello@growthapp.com</a>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <a href="#" class="text-white hover:text-gray-300">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="text-white hover:text-gray-300">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="text-white hover:text-gray-300">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="text-white hover:text-gray-300">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+        <p class="font-normal">&copy; 2023 Growth. All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
